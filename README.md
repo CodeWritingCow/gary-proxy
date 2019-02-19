@@ -4,10 +4,10 @@
 
 ## Related Projects
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+  - https://github.com/motunui/gary-service
+  - https://github.com/motunui/gary-proxy
+  - https://github.com/motunui/grahn-service
+  - https://github.com/motunui/grahn-proxy
 
 ## Table of Contents
 
