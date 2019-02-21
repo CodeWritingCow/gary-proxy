@@ -1,14 +1,15 @@
 const express = require('express');
 const app = express();
-// const path = require('path');
+const cors = require('cors');
+const path = require('path');
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static(__dirname + '/../public'));
-// app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname + '/../public')));
+app.use(cors());
 
-app.get('/', (req, res) => {
-    res.send(res.data);
+app.get('/:id', (req, res) => {
+    res.sendFile(path.join(__dirname + '/../public/index.html'));
 });
 
 
