@@ -1,7 +1,11 @@
+const compression = require('compression');
 const express = require('express');
 const app = express();
 const cors = require('cors');
 const path = require('path');
+
+// compress response
+app.use(compression());
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
