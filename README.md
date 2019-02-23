@@ -1,12 +1,14 @@
-# Project Name
+# Trip Counselor
 
-> Project description
+> Our Front-End Capstone (FEC) project replicates sections of the Trip Advisor website
+
+![screenshot](https://github.com/motunui/gary-proxy/blob/master/2019-02-23%2017.03.58.gif)
 
 ## Related Projects
 
   - https://github.com/motunui/gary-service
-  - https://github.com/motunui/gary-proxy
   - https://github.com/motunui/grahn-service
+  - https://github.com/motunui/sidebar-service
   - https://github.com/motunui/grahn-proxy
 
 ## Table of Contents
@@ -17,7 +19,23 @@
 
 ## Usage
 
-> Some usage instructions
+> Open terminal and go to root directory of this project
+
+> Run 'npm start'
+
+> In browser, visit 'localhost:3016/ID' where 'ID' is a number representating an ID for an event/destination
+
+> Ex. 'localhost:3016/55'
+
+> To see all components, run the servers in the following repos as well:
+
+> https://github.com/motunui/gary-service
+
+> https://github.com/motunui/grahn-service
+
+> https://github.com/motunui/sidebar-service
+
+> The proxy server at https://github.com/motunui/grahn-proxy is similar to this repo's proxy server. Use one or the other.
 
 ## Requirements
 
@@ -36,4 +54,3 @@ From within the root directory:
 npm install -g webpack
 npm install
 ```
-![](2019-02-23 17.03.58.gif)
