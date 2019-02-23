@@ -36,4 +36,4 @@ From within the root directory:
 npm install -g webpack
 npm install
 ```
-
+![](2019-02-23 17.03.58.gif)
