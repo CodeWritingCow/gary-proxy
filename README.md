@@ -25,7 +25,7 @@ Open terminal and go to root directory of this project
 
 Run `npm start` in production mode, or `npm run server-dev` in development mode.
 
-In browser, visit 'localhost:3016/ID' where 'ID' is a number representating an ID for a mock event or destination on Trip Counselor. Ex. 'localhost:3016/55'
+In browser, visit 'localhost:3017/ID' where 'ID' is a number representating an ID for a mock event or destination on Trip Counselor. Ex. 'localhost:3017/55'
 
 > To load all components, clone these repos and run their servers as well:
 
