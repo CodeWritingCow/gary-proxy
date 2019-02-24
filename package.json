@@ -1,8 +1,8 @@
 {
   "name": "gary-proxy",
   "version": "",
-  "description": "",
-  "author": "",
+  "description": "Proxy server for Team Motunui's Front End Capstone project",
+  "author": "Gary Pang",
   "license": "",
   "engines": {
     "node": ">=6.13.0"
