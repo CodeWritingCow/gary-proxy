@@ -19,23 +19,23 @@
 
 ## Usage
 
-> Open terminal and go to root directory of this project
+> To run proxy server
 
-> Run 'npm start'
+Open terminal and go to root directory of this project
 
-> In browser, visit 'localhost:3016/ID' where 'ID' is a number representating an ID for an event/destination
+Run `npm start` in production mode, or `npm run server-dev` in development mode.
 
-> Ex. 'localhost:3016/55'
+In browser, visit 'localhost:3016/ID' where 'ID' is a number representating an ID for a mock event or destination on Trip Counselor. Ex. 'localhost:3016/55'
 
-> To see all components, run the servers in the following repos as well:
+> To load all components, clone these repos and run their servers as well:
 
-> https://github.com/motunui/gary-service
+  - https://github.com/motunui/gary-service
 
-> https://github.com/motunui/grahn-service
+  - https://github.com/motunui/grahn-service
 
-> https://github.com/motunui/sidebar-service
+  - https://github.com/motunui/sidebar-service
 
-> The proxy server at https://github.com/motunui/grahn-proxy is similar to this repo's proxy server. Use one or the other.
+The proxy server at https://github.com/motunui/grahn-proxy is similar to this repo's proxy server. Use one or the other.
 
 ## Requirements
 
