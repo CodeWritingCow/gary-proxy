@@ -37,6 +37,12 @@ In browser, visit 'localhost:3017/ID' where 'ID' is a number representating an I
 
 The proxy server at https://github.com/motunui/grahn-proxy is similar to this repo's proxy server. Use one or the other.
 
+> Using the correct URLs for development and production
+
+To run the proxy server on your local machine, open `public/index.html` and uncomment the `<script>` tags for bundle.js files hosted locally. Comment out the `<script>` tags for bundle.js files hosted on AWS.
+
+Before you deploy the proxy to your own AWS instance, do the opposite of above. Also, replace the URLs for the bundle.js files on AWS with your own.
+
 ## Requirements
 
 An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
